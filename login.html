@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="setBody">
+    <header>
+      <span class="image-clickable">
+        <a href="index.html">
+          <div class="setLogo">
+            <img src="img/logo.jpg" style="border-radius: 50%;" alt="main-logo" />
+          </div>
+        </a>
+      </span>
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <div class="Series" href="#">Series</div>
+          </li>
+          <li>
+            <div class="Movie" href="#">Movie</div>
+          </li>
+          <li>
+            <div class="Animation" href="#">Animation</div>
+          </li>
+        </ul>
+      </nav>
+      <form role="search" id="form">
+        <input type="search" id="query" class="inputNav" name="q" placeholder="Search..."
+          aria-label="Search through site content">
+        <button-search><svg style="color: #ffffff;" width="50px;" height="50px;" viewBox="0 0 1024 1024">
+            <path class="path1"
+              d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z">
+            </path>
+          </svg></button-search>
+      </form>
+      <a href="Subscribe.html"><button class="buttonNav">Subscribe</button></a>
+      <span class="image-clickable">
+        <a href="login.html">
+            <div class="setLogo">
+                <img src="img/user.png" style="border-radius: 50%;" alt="main-logo" />
+            </div>
+        </a>
+    </span>
+    </header>
+
+    <div class="setlogin">
+      <div class="sliderLog">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slideLog first">
+            <img src="img/avatarBN.jpg" alt="">
+          </div>
+          <div class="slideLog">
+            <img src="img/marvelBN.jpg" alt="">
+          </div>
+          <div class="slideLog">
+            <img src="img/interstellarBN.jpg" alt="">
+          </div>
+          <div class="slideLog">
+            <img src="img/marvel2BN.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!--image slider end-->
+      <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if (counter > 4) {
+            counter = 1;
+          }
+        }, 5000);
+      </script>
+      <div class="setSquareLog">
+        <h1 class="styH1Log">Sign in</h1>
+        <div class="imgdiv">
+          <img src="img/user.png">
+        </div>
+        <div class="setDivInput">
+          <input class="setInputLog" type="text" placeholder="Username">
+        </div>
+        <div class="setDivInput">
+          <input class="setInputLog" type="text" placeholder="Password">
+        </div>
+        <div class="setDivButtonLog">
+          <button class="buttonLogin" href="#">
+            <a class="setCenter setFontLog">Login</a></button>
+        </div>
+        <div class="setCenter">
+          <a>Don't have account yet?</a>
+          <a href="Register.html"> Sign up now</a>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <ul class="setUl">
+        <li>Term Of Us</li>
+        <li>Privacy Policy (New)</li>
+        <li>FAQ</li>
+        <li style="margin-right: 70px;">Feedback</li>
+        <li><img src="img/googleplay.png" class="iconI"></img></li>
+        <li><img src="img/appStore.png" class="iconI"></img></li>
+        <li><img src="img/facebook.png" class="iconI"></img></li>
+        <li><img src="img/instagram.png" class="iconI"></img></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>

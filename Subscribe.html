@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="setBody">
+        <header>
+            <span class="image-clickable">
+                <a href="index.html">
+                    <div class="setLogo">
+                        <img src="img/logo.jpg" style="border-radius: 50%;" alt="main-logo" />
+                    </div>
+                </a>
+            </span>
+            <nav>
+                <ul class="nav-links">
+                    <li>
+                        <div class="Series" href="#">Series</div>
+                    </li>
+                    <li>
+                        <div class="Movie" href="#">Movie</div>
+                    </li>
+                    <li>
+                        <div class="Animation" href="#">Animation</div>
+                    </li>
+                </ul>
+            </nav>
+            <form role="search" id="form">
+                <input type="search" id="query" class="inputNav" name="q" placeholder="Search..."
+                    aria-label="Search through site content">
+                <button-search><svg style="color: #ffffff;" width="50px;" height="50px;" viewBox="0 0 1024 1024">
+                        <path class="path1"
+                            d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z">
+                        </path>
+                    </svg></button-search>
+            </form>
+            <a href="Subscribe.html"><button class="buttonNav">Subscribe</button></a>
+            <span class="image-clickable">
+                <a href="login.html">
+                    <div class="setLogo">
+                        <img src="img/user.png" style="border-radius: 50%;" alt="main-logo" />
+                    </div>
+                </a>
+            </span>
+        </header>
+        <div class="setCenter">
+            <h3 class="setFont">Select the plan you'd like</h3>
+        </div>
+        <div class="grid-container">
+            <div class="planGrid__header">
+                <div class="level b">Basic</div>
+                <div class="level s">Standard</div>
+                <div class="level p">Premium</div>
+            </div>
+            <div class="resolution">Resolution
+                <div class="basic">720p</div>
+                <div class="standard">1080p</div>
+                <div class="premium">4K+HDR</div>
+            </div>
+            <div class="watchOn">Screen you can watch on at the same time
+                <div class="basic">2</div>
+                <div class="standard">4</div>
+                <div class="premium">5</div>
+            </div>
+            <div class="programs">Unlimited films and TV programs
+                <div class="basicSym">×</div>
+                <div class="standardSym">✓</div>
+                <div class="premiumSym">✓</div>
+            </div>
+            <div class="ads">No ads
+                <div class="basicSym">×</div>
+                <div class="standardSym">✓</div>
+                <div class="premiumSym">✓</div>
+            </div>
+            <div class="platform">Devices you can use to watch
+                <div class="basicSym">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M6 0C4.89543 0 4 0.895431 4 2V22C4 23.1046 4.89543 24 6 24H18C19.1046 24 20 23.1046 20 22V2C20 0.89543 19.1046 0 18 0H6ZM6 2L18 2V22H6V2ZM13.5 18.5C13.5 17.6716 12.8284 17 12 17C11.1716 17 10.5 17.6716 10.5 18.5C10.5 19.3284 11.1716 20 12 20C12.8284 20 13.5 19.3284 13.5 18.5Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="phone">Phone</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2 3C0.895431 3 0 3.89543 0 5V19C0 20.1046 0.895431 21 2 21H22C23.1046 21 24 20.1046 24 19V5C24 3.89543 23.1046 3 22 3H2ZM2 5H22V19H2V5ZM18.5 13.5C19.3284 13.5 20 12.8284 20 12C20 11.1716 19.3284 10.5 18.5 10.5C17.6716 10.5 17 11.1716 17 12C17 12.8284 17.6716 13.5 18.5 13.5Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="tablet">Tablet</div>
+                </div>
+                <div class="standardSym">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M6 0C4.89543 0 4 0.895431 4 2V22C4 23.1046 4.89543 24 6 24H18C19.1046 24 20 23.1046 20 22V2C20 0.89543 19.1046 0 18 0H6ZM6 2L18 2V22H6V2ZM13.5 18.5C13.5 17.6716 12.8284 17 12 17C11.1716 17 10.5 17.6716 10.5 18.5C10.5 19.3284 11.1716 20 12 20C12.8284 20 13.5 19.3284 13.5 18.5Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="phone">Phone</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2 3C0.895431 3 0 3.89543 0 5V19C0 20.1046 0.895431 21 2 21H22C23.1046 21 24 20.1046 24 19V5C24 3.89543 23.1046 3 22 3H2ZM2 5H22V19H2V5ZM18.5 13.5C19.3284 13.5 20 12.8284 20 12C20 11.1716 19.3284 10.5 18.5 10.5C17.6716 10.5 17 11.1716 17 12C17 12.8284 17.6716 13.5 18.5 13.5Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="tablet">Tablet</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.99997 3C2.8954 3 1.99997 3.89543 1.99997 5V14C1.99997 15.1046 2.8954 16 3.99997 16H20C21.1045 16 22 15.1046 22 14V5C22 3.89543 21.1045 3 20 3H3.99997ZM3.99997 5L20 5V14H3.99997V5ZM1.11859 20.6355C4.58689 20.2212 8.23466 20 12 20C15.7653 20 19.413 20.2212 22.8813 20.6355L23.1186 18.6497C19.5701 18.2257 15.8431 18 12 18C8.15686 18 4.42984 18.2257 0.881348 18.6497L1.11859 20.6355Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="computer">Computer</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2 3C0.895431 3 0 3.89543 0 5V14C0 15.1046 0.895431 16 2 16H22C23.1046 16 24 15.1046 24 14V5C24 3.89543 23.1046 3 22 3H2ZM2 5L22 5V14H2V5ZM2.1072 20.5232C5.27786 20.1813 8.59078 20 12 20C15.4092 20 18.7221 20.1813 21.8928 20.5232L22.1072 18.5347C18.8643 18.1851 15.4798 18 12 18C8.52024 18 5.13573 18.1851 1.8928 18.5347L2.1072 20.5232Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="TV">TV</div>
+                </div>
+                <div class="premiumSym">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M6 0C4.89543 0 4 0.895431 4 2V22C4 23.1046 4.89543 24 6 24H18C19.1046 24 20 23.1046 20 22V2C20 0.89543 19.1046 0 18 0H6ZM6 2L18 2V22H6V2ZM13.5 18.5C13.5 17.6716 12.8284 17 12 17C11.1716 17 10.5 17.6716 10.5 18.5C10.5 19.3284 11.1716 20 12 20C12.8284 20 13.5 19.3284 13.5 18.5Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="phone">Phone</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2 3C0.895431 3 0 3.89543 0 5V19C0 20.1046 0.895431 21 2 21H22C23.1046 21 24 20.1046 24 19V5C24 3.89543 23.1046 3 22 3H2ZM2 5H22V19H2V5ZM18.5 13.5C19.3284 13.5 20 12.8284 20 12C20 11.1716 19.3284 10.5 18.5 10.5C17.6716 10.5 17 11.1716 17 12C17 12.8284 17.6716 13.5 18.5 13.5Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="tablet">Tablet</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.99997 3C2.8954 3 1.99997 3.89543 1.99997 5V14C1.99997 15.1046 2.8954 16 3.99997 16H20C21.1045 16 22 15.1046 22 14V5C22 3.89543 21.1045 3 20 3H3.99997ZM3.99997 5L20 5V14H3.99997V5ZM1.11859 20.6355C4.58689 20.2212 8.23466 20 12 20C15.7653 20 19.413 20.2212 22.8813 20.6355L23.1186 18.6497C19.5701 18.2257 15.8431 18 12 18C8.15686 18 4.42984 18.2257 0.881348 18.6497L1.11859 20.6355Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="computer">Computer</div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="planGrid__supportedDevicesIcon" focusable="false">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2 3C0.895431 3 0 3.89543 0 5V14C0 15.1046 0.895431 16 2 16H22C23.1046 16 24 15.1046 24 14V5C24 3.89543 23.1046 3 22 3H2ZM2 5L22 5V14H2V5ZM2.1072 20.5232C5.27786 20.1813 8.59078 20 12 20C15.4092 20 18.7221 20.1813 21.8928 20.5232L22.1072 18.5347C18.8643 18.1851 15.4798 18 12 18C8.52024 18 5.13573 18.1851 1.8928 18.5347L2.1072 20.5232Z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <div class="TV">TV</div>
+                </div>
+            </div>
+        </div>
+        <div class="setDivButton">
+            <button class="buttonSub">Subscribe Now</button>
+        </div>
+        <footer>
+        <ul class="setUl">
+            <li>Term Of Us</li>
+            <li>Privacy Policy (New)</li>
+            <li>FAQ</li>
+            <li style="margin-right: 70px;">Feedback</li>
+            <li><img src="img/googleplay.png" class="iconI"></img></li>
+            <li><img src="img/appStore.png" class="iconI"></img></li>
+            <li><img src="img/facebook.png" class="iconI"></img></li>
+            <li><img src="img/instagram.png" class="iconI"></img></li>
+        </ul>
+    </footer>
+    </div>
+    
+</body>
+
+</html
